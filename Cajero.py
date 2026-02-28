@@ -30,8 +30,9 @@ while True:
                 print("has ingresado un monto errado, intentalo de nuevo")
                 continue
             else:
+                saldo = saldo - Montoaretirar
                 print("retiro exitoso")
-                print("tu nuevo saldo es: ", (Montoaretirar - saldo))
+                print("tu nuevo saldo es: ", saldo)
                 break
                 
 
@@ -43,8 +44,9 @@ while True:
                 print("has ingresado un monto errado, intentalo de nuevo")
                 continue
             else:
+                saldo = saldo + Monto_a_depositar
                 print("deposito exitoso",
-                    "Tu nuevo saldo es: ", (Monto_a_depositar + saldo),
+                    "Tu nuevo saldo es: ", saldo,
                     sep="\n")
                 break
     
