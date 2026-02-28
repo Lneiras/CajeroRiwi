@@ -53,3 +53,4 @@ elif opciones == 4 :
 
 else:
     print("opcion no valida")
+    print("intentalo de nuevo")
