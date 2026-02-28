@@ -50,3 +50,6 @@ elif opciones == 4 :
     print("Gracias por utilizar nuestros servicios",
         "Ten un buen día",
         sep="\n")
+
+else:
+    print("opcion no valida")
